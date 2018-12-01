@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Fale Conosco</title>
+    <link rel="shortcut icon" type="image/x-png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contato.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="contato.js"></script>
+</head>
+<body>
+
+    <h1>Fale Conosco</h1>
+
+	<nav>
+        <a href="index.html">Home</a>
+        <a href="servicos.html">Nossos Serviços</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="contato.html">Fale Conosco</a>
+    </nav>
+
+    <div>
+
+    <aside class="esquerda">
+        <h3>Para contratar nossos serviços ou informações <br> entre em contato:</h3>
+        <p>Telefone: (32) 99900-1122 <img src="whatsapp.png" alt="simbolo whatsapp"> </p>
+        <p>E-mail: imagineontabilidade@gmail.com <img src="email.png" alt="simbolo email"></p>
+    </aside>
+
+    <aside class="direita">
+        <h3>Ou envie uma mensagem</h3>
+        <form action="cadastro.php" method="post" onsubmit="return conForm()">
+            <p><label for="nome">Nome: </label><input type="text" name="nome" placeholder="Digite seu Nome completo" onBlur="confNome(this)" required></p>
+            <p><label for="telefone"> Telefone: </label><input type="text" name="telefone" id="telefone" placeholder="Informe seu telefone" onkeypress="confTelefone()" required></p>
+            <p><label for="email">E-mail: </label><input type="text" name="email" id="email" placeholder="Infome um e-mail válido" onBlur="confEmail(this)" required>
+            <select>
+                <option value="outro">Outro</option>
+                <option value="gmail" selected>@gmail.com</option>
+                <option value="hotmail">@hotmail.com</option>
+                <option value="yahoo">@yahoo.com</option>
+                <option value="outlook">@outlook.com</option>
+            </select>
+            </p>
+            <p><label for="assunto">Assunto: </label>
+            <select id="assunto" required>
+                <option value="semSelecao" disabled selected>Sem Assunto</option>
+                <option value="abertura">Abertura de Empresa</option>
+                <option value="contabil">Contábil</option>        
+                <option value="Fiscal">Fiscal</option>
+                <option value="Pessoa Fisica">Pessoa Física</option>
+                <option value="Trabalhista">Trabalhista</option>
+                <option value="outros">Outros Serviços</option>
+                <option value="suporte">Suporte</option>
+            </select></p>
+            <p><label for="mensagem">Mensagem:</label></p>
+            <textarea name="mensagem" id="mensagem" cols="48" rows="10" placeholder="Insira sua mensagem" onBlur="confMensagem(this)" required></textarea>
+            <br>
+            <p><input type="submit" value="Enviar" class="botao" ></p>
+        </form>
+    </aside>
+
+    <footer>
+        <p>&copy; 2018 | Imagine Contabilidade - by: Rosana Nascimento</p>
+    </footer>
+</div>
+</body>
+</html>

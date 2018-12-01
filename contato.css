@@ -1,0 +1,92 @@
+p, h3{
+	color: white;
+}
+
+h1{
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 30px;
+}
+
+input#email{
+	width: 200px;
+}
+
+input{
+	width: 100%;
+}
+
+input:hover{
+	background-color: #DCDCDC;
+}
+
+textarea:hover{
+	background-color: #DCDCDC;
+}
+
+.botao:hover{
+	cursor: pointer;
+    background-color: #9f9e9d;
+    color: black;
+}
+
+body{
+	background-color: #CFCFCF;
+}
+
+.botao{
+	display: block;
+	float: none;
+	padding: 15px 20px;
+	background-color: #00612F;
+	color: white;
+	border-style: outset; 
+	border-radius: 13px;
+	width: 100px; 
+	height: 50px;
+	margin: auto;
+}
+
+aside.direita{
+	float: left;
+	display: block;
+    margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+
+aside.esquerda{
+	float: left;
+	display: block;
+	margin-left: 100px;
+	margin-top: 10px;
+
+}
+
+@media only screen and (max-device-width: 700px){
+	aside.direita{
+		clear: both;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+	
+	aside.esquerda{
+		clear: both;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
+	nav{
+	margin-right: 0px;
+	margin-left: 0px;
+	}
+
+	input#email{
+	width: 178px;
+	}
+	
+	h1{
+		font-size: 30px;
+	}
+}

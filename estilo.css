@@ -1,0 +1,70 @@
+nav a:hover{
+	color: black;
+	background-color: white;
+	text-decoration: underline;
+}
+
+nav a:active{
+	background-color: #696969;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17pt;
+	display: inline-block;
+}
+
+nav{
+	top: 0px;
+	background-color: #696969;
+	border: 2px solid black;
+	border-radius: 15px;
+	text-align: center;
+    position: sticky;
+}
+
+nav ::after{
+	content: " • ";
+}
+
+footer p{
+	text-align: center;
+	font-size: 15pt;
+	color: black;
+}
+
+footer{
+	clear: both;
+	border-top: 1px solid #606060;
+}
+
+div{
+	margin: auto;
+}
+
+body{
+	background-image: url('home.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+@media only screen and (max-device-width: 700px){
+	footer p{
+		font-size: 10pt;
+        
+	}
+	nav a{
+		text-align: center;
+		font-size: 11pt;
+	}
+    body{
+    padding: 0;
+    margin: 5px;
+}
+}

@@ -1,0 +1,175 @@
+a{
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #A9A9A9;
+}
+
+li a:visited{
+	color: red;
+}
+
+body{
+	background-color: #CFCFCF;
+
+}
+
+h1{
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 30px;
+}
+
+figure.abertura{
+	float: left;
+	width: 450px;
+	height: 300px;
+    margin: 30px;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+    background-image: url(abertura.jpg);
+    background-size: cover;
+	border-radius: 10px;
+	position: relative;
+}
+
+figure.contabil{
+	float: right;
+	width: 450px;
+	height: 300px;
+	margin: 30px;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+    background-image: url(contabil.jpeg);
+    background-size: cover;
+	border-radius: 10px;
+	position: relative;    
+}
+
+figure.fiscal{
+	float: left;
+	width: 450px;
+	height: 300px;
+	margin: 30px;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+	background-image: url("fiscal.jpg");
+    background-size: cover;
+	border-radius: 10px;
+	position: relative;
+}
+
+figure.fisica{
+	float: right;
+	width: 450px;
+	height: 300px;
+	margin: 30px;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+	background-image: url("fisica.jpg");
+    background-size: cover;
+	border-radius: 10px;
+	border-radius: 10px;
+	position: relative;
+}
+
+figure.trabalhista{
+	float: left;
+	width: 450px;
+	height: 300px;
+	margin: 30px;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+	background-image: url("trabalhista.jpg");
+    background-size: cover;
+	border-radius: 10px;
+}
+
+figure.tributos{
+	float: right;
+	width: 450px;
+	height: 300px;
+	margin: 30px;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+	background: url("tributos.jpg");
+    background-size: cover;
+	border-radius: 10px;
+}
+
+figure ul{
+    opacity: 0;
+    transition: 1s;
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 87px;
+    padding-bottom: 87px;
+    margin: 0;
+    border-radius: 10px;   
+    color: white;
+}
+
+figure ul:hover{
+    opacity: 1;
+   
+}
+
+@media only screen and (max-width: 600px){
+	figure.abertura{
+		clear: both;
+		width: auto;
+        height: 200px;
+        margin: 10px;
+	}
+	figure.contabil{
+		clear: both;
+		width: auto;
+        height: 220px;
+        margin: 10px;
+
+	}
+	figure.fiscal{
+		clear: both;
+		width: 330px;
+        height: 220px;
+        margin: 10px;
+	}
+	figure.fisica{
+		clear: both;
+		width: auto;
+        height: auto;
+        margin: 10px;
+	}
+	figure.trabalhista{
+		clear: both;
+		width: 330px;;
+        height: auto;
+        margin: 10px;
+	}
+	figure.tributos{
+		clear: both;
+		width: auto;
+        height: 200px;
+        margin: 10px;
+	}
+    figure ul{   
+    padding-top: 19px;
+    padding-bottom: 19px;
+	}
+    figure.fiscal ul{
+        padding-top: 12px;
+        padding-bottom: 11px;
+    }
+    figure.contabil ul{
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+	div{
+	margin-right: 0px;
+	margin-left: 0px;
+	}
+	nav{
+	margin-right: 0px;
+	margin-left: 0px;
+	}
+	h1{
+		font-size: 30px;
+	}
+}

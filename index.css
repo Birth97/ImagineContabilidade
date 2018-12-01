@@ -1,0 +1,51 @@
+div{
+	background-color: #CFCFCF;
+	border: 2px solid black;
+	border-radius: 15px;
+    padding: 10px;
+	
+}
+
+h1{
+	font-size: 50pt;
+	text-align: center;
+	text-shadow: 2px 2px #FFFFFF;
+	font-family: FreeMono, monospace;
+	font-style: oblique;
+	font-variant: small-caps;
+}
+
+h2{
+	text-align: center;
+}
+
+p{
+	font-size: 15pt;
+	color: #696969;
+	text-align: justify;
+	text-indent: 40px;
+}
+
+li{
+	font-size: 15pt;
+	color: #696969;
+}
+
+@media only screen and (max-device-width: 700px){
+	body{
+		
+		background-repeat: repeat-y;
+		background-size: auto;
+		background-attachment: fixed;
+	}
+	h1{
+		font-size: 30pt;
+		text-align: center;
+		text-shadow: 2px 2px #FFFFFF;
+		font-family: courier new, monospace, sans-serif;
+	}
+	body{
+	margin-right: 20px;
+	margin-left: 20px;
+	}
+}
