@@ -13,8 +13,7 @@ li a:visited{
 }
 
 body{
-	background-color: #CFCFCF;
-
+	background-color: #CFCFCF;   
 }
 
 h1{
@@ -28,7 +27,8 @@ figure.abertura{
 	float: left;
 	width: 450px;
 	height: 300px;
-    margin: 30px;
+    margin-top: 30px;
+    margin-left: 60px;
 	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
     background-image: url(abertura.jpg);
     background-size: cover;
@@ -37,10 +37,11 @@ figure.abertura{
 }
 
 figure.contabil{
-	float: right;
+	float: left;
 	width: 450px;
 	height: 300px;
-	margin: 30px;
+	margin-top: 30px;
+    margin-left: 60px;
 	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
     background-image: url(contabil.jpeg);
     background-size: cover;
@@ -52,7 +53,8 @@ figure.fiscal{
 	float: left;
 	width: 450px;
 	height: 300px;
-	margin: 30px;
+	margin-top: 30px;
+    margin-left: 60px;
 	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
 	background-image: url("fiscal.jpg");
     background-size: cover;
@@ -61,10 +63,11 @@ figure.fiscal{
 }
 
 figure.fisica{
-	float: right;
+	float: left;
 	width: 450px;
 	height: 300px;
-	margin: 30px;
+	margin-top: 30px;
+    margin-left: 60px;
 	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
 	background-image: url("fisica.jpg");
     background-size: cover;
@@ -77,7 +80,8 @@ figure.trabalhista{
 	float: left;
 	width: 450px;
 	height: 300px;
-	margin: 30px;
+	margin-top: 30px;
+    margin-left: 60px;
 	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
 	background-image: url("trabalhista.jpg");
     background-size: cover;
@@ -85,10 +89,11 @@ figure.trabalhista{
 }
 
 figure.tributos{
-	float: right;
+	float: left;
 	width: 450px;
 	height: 300px;
-	margin: 30px;
+	margin-top: 30px;
+    margin-left: 60px;
 	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
 	background: url("tributos.jpg");
     background-size: cover;
@@ -111,7 +116,7 @@ figure ul:hover{
    
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 650px){
 	figure.abertura{
 		clear: both;
 		width: auto;
@@ -172,4 +177,36 @@ figure ul:hover{
 	h1{
 		font-size: 30px;
 	}
+}
+@media only screen and (max-width: 700px){
+    body{
+        padding: 10px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    figure.abertura {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    figure.contabil {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    figure.fiscal {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    figure.fisica {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    figure.trabalhista {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    figure.tributos {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
 }

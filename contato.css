@@ -64,29 +64,21 @@ aside.esquerda{
 
 }
 
-@media only screen and (max-device-width: 700px){
+@media only screen and (max-width: 700px){
 	aside.direita{
 		clear: both;
 		margin-left: 0px;
 		margin-top: 0px;
 	}
-	
 	aside.esquerda{
 		clear: both;
 		margin-left: 0px;
 		margin-top: 0px;
 	}
-
-	nav{
-	margin-right: 0px;
-	margin-left: 0px;
-	}
-
+    nav a{
+        font-size: 20px;
+    }
 	input#email{
-	width: 178px;
-	}
-	
-	h1{
-		font-size: 30px;
+	   width: 178px;
 	}
 }
