@@ -116,7 +116,7 @@ figure ul:hover{
    
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width:600px){
 	figure.abertura{
 		clear: both;
 		width: auto;
