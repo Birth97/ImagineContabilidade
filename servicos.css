@@ -33,7 +33,6 @@ figure.abertura{
     background-image: url(abertura.jpg);
     background-size: cover;
 	border-radius: 10px;
-	position: relative;
 }
 
 figure.contabil{
@@ -45,8 +44,7 @@ figure.contabil{
 	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
     background-image: url(contabil.jpeg);
     background-size: cover;
-	border-radius: 10px;
-	position: relative;    
+	border-radius: 10px;    
 }
 
 figure.fiscal{
@@ -59,7 +57,6 @@ figure.fiscal{
 	background-image: url("fiscal.jpg");
     background-size: cover;
 	border-radius: 10px;
-	position: relative;
 }
 
 figure.fisica{
@@ -73,7 +70,6 @@ figure.fisica{
     background-size: cover;
 	border-radius: 10px;
 	border-radius: 10px;
-	position: relative;
 }
 
 figure.trabalhista{
