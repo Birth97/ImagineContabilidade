@@ -3,14 +3,6 @@ var i;
 var num = "1234567890";
 var c = "";
 var str = "";
-var n = document.getElementById("nome").value;
-
-function conForm(){
-	if(n == " "){
-		alert("Impossivel enviar mensagem!");
-		return false;
-	}
-}
 
 function confTelefone(){
 
@@ -40,29 +32,4 @@ if(str.length == 10) {
 	document.getElementById("telefone").value = novo;
 	}
 
-}
-
-function confNome(cNome){
-	if(cNome.value == ""){
-		return false;
-	}
-	if(cNome.value.indexOf(" ") == -1){
-		return false;
-	}
-
-}
-
-function confEmail(cEmail){
-	if (cEmail.value == " "){
-		return false;
-	}
-}
-
-function confMensagem(msg){
-	if (msg.value == " "){
-		return false;
-	}
-	if (msg.value.length < 10){
-		return false;
-	}
 }
