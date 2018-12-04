@@ -31,10 +31,10 @@
 
     <aside class="direita">
         <h3>Ou envie uma mensagem</h3>
-        <form action="cadastro.php" method="post" onsubmit="return conForm()">
-            <p><label for="nome">Nome: </label><input type="text" name="nome" id="nome" placeholder="Digite seu Nome completo" onBlur="confNome(this)" required></p>
+        <form action="cadastro.php" method="post">
+            <p><label for="nome">Nome: </label><input type="text" name="nome" id="nome" placeholder="Digite seu Nome completo" required></p>
             <p><label for="telefone"> Telefone: </label><input type="text" name="telefone" id="telefone" placeholder="Informe seu telefone" onkeypress="confTelefone()" required></p>
-            <p><label for="email">E-mail: </label><input type="text" name="email" id="email" placeholder="Infome um e-mail válido" onBlur="confEmail(this)" required>
+            <p><label for="email">E-mail: </label><input type="text" name="email" id="email" placeholder="Infome um e-mail válido" required>
             <select>
                 <option value="outro">Outro</option>
                 <option value="gmail" selected>@gmail.com</option>
@@ -55,7 +55,7 @@
                 <option value="suporte">Suporte</option>
             </select></p>
             <p><label for="mensagem">Mensagem:</label></p>
-            <textarea name="mensagem" id="mensagem" cols="48" rows="10" placeholder="Insira sua mensagem" onBlur="confMensagem(this)" required></textarea>
+            <textarea name="mensagem" id="mensagem" cols="48" rows="10" placeholder="Insira sua mensagem" required></textarea>
             <br>
             <p><input type="submit" value="Enviar" class="botao" ></p>
         </form>
