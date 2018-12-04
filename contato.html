@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="contato.css">
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="contato.js"></script>
+    <script src="contato.js"></script>
 </head>
 <body>
 
@@ -32,7 +32,7 @@
     <aside class="direita">
         <h3>Ou envie uma mensagem</h3>
         <form action="cadastro.php" method="post" onsubmit="return conForm()">
-            <p><label for="nome">Nome: </label><input type="text" name="nome" placeholder="Digite seu Nome completo" onBlur="confNome(this)" required></p>
+            <p><label for="nome">Nome: </label><input type="text" name="nome" id="nome" placeholder="Digite seu Nome completo" onBlur="confNome(this)" required></p>
             <p><label for="telefone"> Telefone: </label><input type="text" name="telefone" id="telefone" placeholder="Informe seu telefone" onkeypress="confTelefone()" required></p>
             <p><label for="email">E-mail: </label><input type="text" name="email" id="email" placeholder="Infome um e-mail válido" onBlur="confEmail(this)" required>
             <select>
@@ -45,7 +45,7 @@
             </p>
             <p><label for="assunto">Assunto: </label>
             <select id="assunto" required>
-                <option value="semSelecao" disabled selected>Sem Assunto</option>
+                <option disabled selected>Sem Assunto</option>
                 <option value="abertura">Abertura de Empresa</option>
                 <option value="contabil">Contábil</option>        
                 <option value="Fiscal">Fiscal</option>
